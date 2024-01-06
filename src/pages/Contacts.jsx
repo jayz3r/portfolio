@@ -27,13 +27,13 @@ const Contacts = () => {
             }}
           >
             <FontAwesomeIcon icon={faPhone} />
-            <a href="">+996 554 922 724 </a>
+            +996 554 922 724 
           </a>
           <NavLink
             to={"https://www.tiktok.com/@a_bikaboss?_t=8ieCqI9cok6&_r=1"}
           >
             <FontAwesomeIcon icon={faTiktok} />
-            <a>a_bikaboss</a>
+            <p>a_bikaboss</p>
           </NavLink>
           <NavLink
             to={
@@ -41,11 +41,11 @@ const Contacts = () => {
             }
           >
             <FontAwesomeIcon icon={faInstagram} />
-            <a>bikaboss</a>
+            <p>bikaboss</p>
           </NavLink>
           <NavLink>
             <FontAwesomeIcon icon={faTwitter} />
-            <a></a>
+            <p></p>
           </NavLink>
         </div>
       </div>
