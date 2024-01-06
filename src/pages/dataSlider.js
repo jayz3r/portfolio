@@ -1,27 +1,27 @@
 const dataSlider = [
     {
         id:1,
-        image: 'src/pages/img/beacon.jpg'
+        image: 'public/img/beacon.jpg'
     },
     {
         id:2,
-        image: 'src/pages/img/oldman.jpg'
+        image: 'public/img/oldman.jpg'
     },
     {
         id:3,
-        image: 'src/pages/img/oldman2.jpg'
+        image: 'public/img/oldman2.jpg'
     },
     {
         id:4,
-        image: 'src/pages/img/statue.jpg'
+        image: 'public/img/statue.jpg'
     },
     {
         id:5,
-        image: 'src/pages/img/vase.jpg'
+        image: 'public/img/vase.jpg'
     },
     {
         id:6,
-        image: 'src/pages/img/vine.jpg'
+        image: 'public/img/vine.jpg'
     },
 ]
 
