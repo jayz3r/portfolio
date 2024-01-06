@@ -1,0 +1,11 @@
+.productList{
+  padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+   justify-content: center;
+}
+.productImage {
+  width: 300px;
+  height: 400px;
+}
