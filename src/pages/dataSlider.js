@@ -1,9 +1,9 @@
-import beacon from '../pages/img/beacon.jpg'
-import oldman from '../pages/img/oldman.jpg'
-import oldman2 from '../pages/img/oldman2.jpg'
-import statue from '../pages/img/statue.jpg'
-import vase from '../pages/img/vase.jpg'
-import vine from '../pages/img/vine.jpg'
+import beacon from '../assets/img/beacon.jpg'
+import oldman from '../assets/img/oldman.jpg'
+import oldman2 from '../assets/img/oldman2.jpg'
+import statue from '../assets/img/statue.jpg'
+import vase from '../assets/img/vase.jpg'
+import vine from '../assets/img/vine.jpg'
 
 const dataSlider = [
     {
