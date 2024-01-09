@@ -34,7 +34,7 @@ export default function Layout() {
           </ul>
         </nav>
       </div>
-      <div className="container mx-auto px-24">
+      <div className=" xl:container">
         <Outlet />
         <footer>
           <div className="footer-logo">
