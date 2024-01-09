@@ -1,0 +1,47 @@
+.aboutme {
+  margin-bottom: 20px;
+  h1 {
+    text-align: center;
+    color: #806044;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
+.biography {
+  display: flex;
+  justify-content: space-around;
+  .imgSection {
+    img {
+      width: 500px;
+      height: 400px;
+    }
+  }
+  .textSection {
+    width: 500px;
+    font-size: 1.5rem;
+    color: #806044;
+    h2 {
+      font-size: larger;
+      font-weight: 600;
+    }
+    .painter {
+      margin-left: 190px;
+      font-style: italic;
+    }
+  }
+}
+
+@media (max-width: 998px) {
+  .biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+    .biography {
+      .textSection {
+        width: calc(100% - 20px);
+      }
+    }
+  }

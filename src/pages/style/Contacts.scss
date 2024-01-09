@@ -1,5 +1,5 @@
 .navContacts{
-    height:80vh;
+    height:67vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,8 +7,11 @@
     .contactText{
         display: flex;
         flex-direction: column;
+        color: #806044; 
+        font-weight: 700;
     }
     .social {
+        color: #806044;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
@@ -31,12 +34,17 @@
 
 @media (max-width:768px) {
     .navContacts{
-    padding-top: 50px   ;
+        height: 80vh;
+    padding: 50px  0 ;
         .social{
             display: flex;
             flex-direction: column;
             a{
                 font-size: 20px;
+                svg {
+                    width: 4rem;
+                    height: 6rem;
+                }
             }
         }
     }

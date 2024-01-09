@@ -4,6 +4,7 @@ import oldman2 from '../assets/img/oldman2.jpg'
 import statue from '../assets/img/statue.jpg'
 import vase from '../assets/img/vase.jpg'
 import vine from '../assets/img/vine.jpg'
+import street from '../assets/img/street.jpg'
 
 const dataSlider = [
     {
@@ -29,6 +30,10 @@ const dataSlider = [
     {
         id:6,
         image: vine
+    },
+    {
+        id:7,
+        image: street
     },
 ]
 

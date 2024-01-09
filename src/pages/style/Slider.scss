@@ -21,19 +21,32 @@
   }
 
   .right-arrow {
+    color: #806044;
     font-size: 3rem;
     margin-left: 30px;
+    cursor: pointer;
   }
   .left-arrow {
     font-size: 3rem;
     margin-right: 30px;
+    cursor: pointer;
   }
 }
-@media (max-width: 768px) {
-  .slideImg {
-    img {
-      width: 200px;
+@media (max-width: 968px) {
+  .slider {
+    height: 50vh;
+    .slideImg {
+      width: 500px;
       height: 300px;
+    }
+  }
+}
+@media (max-height: 568px) {
+  .slider {
+    height: 130vh;
+    .slideImg {
+      width: 300px;
+      height: 400px;
     }
   }
 }

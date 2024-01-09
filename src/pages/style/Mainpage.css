@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 .mainpageBody {
   padding-top: 10vh;
   text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+.mainpageBody .textSect {
+  font-size: 2rem;
+  color: #412f26;
 }
 
 @media (max-width: 1268px) {

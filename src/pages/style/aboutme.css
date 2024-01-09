@@ -1,0 +1,44 @@
+.aboutme {
+  margin-bottom: 20px;
+}
+.aboutme h1 {
+  text-align: center;
+  color: #806044;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.biography {
+  display: flex;
+  justify-content: space-around;
+}
+.biography .imgSection img {
+  width: 500px;
+  height: 400px;
+}
+.biography .textSection {
+  width: 500px;
+  font-size: 1.5rem;
+  color: #806044;
+}
+.biography .textSection h2 {
+  font-size: larger;
+  font-weight: 600;
+}
+.biography .textSection .painter {
+  margin-left: 190px;
+  font-style: italic;
+}
+
+@media (max-width: 998px) {
+  .biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .biography .textSection {
+    width: calc(100% - 20px);
+  }
+}/*# sourceMappingURL=aboutme.css.map */

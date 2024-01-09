@@ -4,8 +4,7 @@ import dataSlider from "./dataSlider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const Slider = ({slides}) =>{
-
+const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const timeoutRef = React.useRef(null);
   const length = slides.length;
@@ -22,7 +21,7 @@ const Slider = ({slides}) =>{
     timeoutRef.current = setTimeout(
       () =>
         setCurrent((prevSlide) =>
-        prevSlide === slides.length - 1 ? 0 : prevSlide + 1
+          prevSlide === slides.length - 1 ? 0 : prevSlide + 1
         ),
       delay
     );
@@ -39,7 +38,7 @@ const Slider = ({slides}) =>{
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
   console.log(current);
-  
+
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
@@ -49,11 +48,17 @@ const Slider = ({slides}) =>{
         icon={faArrowLeft}
         className="left-arrow"
         onClick={prevSlide}
+        style={{ color: "#806044" }}
       />
       {dataSlider.map((slide, index) => {
         return (
-          <div className={index === current ? 'slide active' : 'slide'} key={index}>
-            {index === current && (<img className="slideImg" src={slide.image} alt="" />)}
+          <div
+            className={index === current ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === current && (
+              <img className="slideImg" src={slide.image} alt="" />
+            )}
           </div>
         );
       })}
@@ -61,9 +66,10 @@ const Slider = ({slides}) =>{
         icon={faArrowRight}
         className="right-arrow"
         onClick={nextSlide}
+        color="#806044"
       />
     </div>
   );
-}
+};
 
 export default Slider;
