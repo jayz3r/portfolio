@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .aboutme {
   margin-bottom: 20px;
   h1 {
@@ -10,6 +11,7 @@
 .biography {
   display: flex;
   justify-content: space-around;
+  font-family: 'Lato', sans-serif;  
   .imgSection {
     img {
       width: 500px;

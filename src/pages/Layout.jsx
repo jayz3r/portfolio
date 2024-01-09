@@ -8,10 +8,10 @@ const activeMenuClass = ({ isActive }) => (isActive ? "active-menu" : "");
 export default function Layout() {
   return (
     <div>
-      <div className="header xl:container">
+      <div className="header">
         <div className="logo">
           <NavLink to={"/"} className={activeMenuClass}>
-            <h1>Bika</h1>
+            <h1>Akbika</h1>
           </NavLink>
         </div>
         <nav className="headerNav">
